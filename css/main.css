@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: #f2f3f4;
+}
+.appform{
+font-family: Arial, sans-serif;
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 300px;
+    border-radius: .5rem;
+}
+.appform__fieldset{
+    border: 0;
+}
+.appform__label{
+    display: block;
+}
+.appform__label-inline{
+    display: inline-block;
+}
+.appform__input{
+    padding: .5rem 1rem;
+}
+.appform__input-btn{
+    padding: .5rem 1rem;
+    margin: .5rem;
+    border-radius: .25rem;
+}
+.appform__input-reset{
+background: none;
+    border: 0;
+}
+.appform__input-submit{
+border: 0;
+}

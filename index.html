@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<form action="" class="appform" method="post">
+    <fieldset class="appform__fieldset">
+        <div class="appform__group">
+    <label for="appl_name" class="appform__label">ФИО</label>
+    <input type="text" name="appl_name" id="appl_name" class="appform__input" required>
+        </div>
+    </fieldset>
+    <fieldset class="appform__fieldset">
+        <div class="appform__group">
+    <label for="appl_birth" class="appform__label">Дата рождения</label>
+    <input type="text" name="appl_birth" id="appl_birth" class="appform__input" required>
+        </div>
+    </fieldset>
+    <fieldset class="appform__fieldset">
+        <div class="appform__group">
+            <label class="appform__label">Болеете ли вы сейчас</label>
+            <label class="appform__label appform__label-inline" for="appl_ill1"><input type="radio" name="appl_ill"
+                                                                                       value="0" id="appl_ill1"
+                                                                                       class="appform__radio" required>Да</label>
+            <label class="appform__label appform__label-inline" for="appl_ill2"><input type="radio" name="appl_ill"
+                                                                                       value="1" id="appl_ill2"
+                                                                                       class="appform__radio" required>Нет</label>
+        </div>
+    </fieldset>
+    <div class="appform__group-btn">
+        <input class="btn btn-primary appform__input-btn appform__input-reset" type="reset" value="Сбросить">
+        <input class="btn btn-primary appform__input-btn appform__input-submit" type="submit" value="Отправить">
+    </div>
+</form>
+</body>
+</html>
