@@ -1,9 +1,6 @@
-*{
-    box-sizing: border-box;
-}
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 body{
-    margin: 0;
-    background: #f2f3f4;
+    background: #eaeaea;
 }
 .appform{
 font-family: Arial, sans-serif;

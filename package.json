@@ -1,0 +1,31 @@
+{
+  "name": "form_covid",
+  "version": "1.0.0",
+  "description": "Форма подачи заявки на вакцинацию",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatGlu/form_covid.git"
+  },
+  "keywords": [
+    "form",
+    "covid"
+  ],
+  "author": "TatGlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TatGlu/form_covid/issues"
+  },
+  "homepage": "https://github.com/TatGlu/form_covid#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "bootstrap-datetimepicker-npm": "^4.17.37-npm"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%"
+  ]
+}
